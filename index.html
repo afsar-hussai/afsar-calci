@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Afsar Calci</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="welcome-note">
+    <h2>Welcome to Afsar Calci</h2>
+    <p>A simple and feature-rich calculator for all your calculations!</p>
+  </div>
+  <div class="calculator">
+    <input type="text" id="display" tabindex="-1" disabled>
+    <div class="buttons">
+      <button class="button number">7</button>
+      <button class="button number">8</button>
+      <button class="button number">9</button>
+      <button class="button operator">/</button>
+      <button class="button number">4</button>
+      <button class="button number">5</button>
+      <button class="button number">6</button>
+      <button class="button operator">*</button>
+      <button class="button number">1</button>
+      <button class="button number">2</button>
+      <button class="button number">3</button>
+      <button class="button operator">-</button>
+      <button class="button number">0</button>
+      <button class="button decimal">.</button>
+      <button class="button clear">C</button>
+      <button class="button backspace">⌫</button>
+      <button class="button operator">+</button>
+      <button class="button operator" onclick="square()">x²</button>
+      <button class="button operator" onclick="cube()">x³</button>
+      <button class="button operator" onclick="squareRoot()">√</button>
+      <button class="button operator" onclick="percentage()">%</button>
+      <button class="button operator" onclick="convertToBinary()">To Binary</button>
+      <button class="button operator" onclick="convertToHexadecimal()">To Hex</button>
+      <button class="button equal">=</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
